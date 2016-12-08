@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="我们相信这是一个全新的平台，将创造一种全新的游戏风格，”索尼的东京新闻发布会上Project Field开发者坂本一志（Kazuyuki Sakamoto）表示，“若要简要概括这一设备的概念，我们想要让触摸模拟物品的数字化体验更为丰富,该设备可从嵌入在卡牌等物体中的电子芯片中读取信号、感知用户的动作，再通过无线蓝牙连接把指令发送给智能电话和平板电脑。坂本指出，Project Field也有可能与PlayStation游戏机或电视实现连接"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/a1"
+        android:id="@+id/imageButton" />
+
+    <Button
+        android:id="@+id/bt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:textColor = "@color/colorPrimary"
+        android:textStyle="bold"/>
+</LinearLayout>

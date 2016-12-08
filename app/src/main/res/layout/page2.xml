@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Android 7.1.1正式发布：加入类似“3D Touch”功能"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        app:srcCompat="@drawable/picture1"
+        android:id="@+id/imageView" />
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="2016微软技术大会
+        发布Windows Server 2016 Power BI云服务正式商用"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:id="@+id/textView" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/picture2"
+        android:id="@+id/imageView1" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/picture3"
+        android:id="@+id/imageView2"
+         />
+</LinearLayout>

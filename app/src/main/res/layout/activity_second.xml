@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="作为Android Wear最具代表性的智能手表，随着销量的大跌，联想旗下的摩托罗拉近日确认，不会随明年初即将来到的Android Wear2.0一起发布新款智能手表。
+摩托罗拉全球产品开发负责人、联想移动集团的沙吉尔·巴卡特解释称，这个阶段，我们没有看到足够的市场需求，可穿戴设备对我们来说已经没了足够的吸引力，所以没有动力支撑我们每年去研发一款新智能手表。这也意味着，手表和其它可穿戴设备不会再出现在摩托罗拉的年度更新路线中。
+而最早以智能手表产品在Kickstarter俘获电子产品爱好者芳心的Pebble，则在3月裁员25%后，又面临被Fitbit收购的命运。
+可以看到，时至今日，智能手表的功能和定位主要是作为智能手机的延伸，主要功能有接打电话、消息震动提醒、快速浏览、控制音乐播放、心率、App智能扩展等，目前基本是手机厂商在做，诸如苹果、三星、华为；第二类则是专业运动型，目前以导航定位出身的佳明为代表；还有一个极为小众的市场，即奢侈装饰品。"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="256dp"
+        app:srcCompat="@drawable/a2"
+        android:id="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:textColor = "@color/colorPrimary"
+        android:textStyle="bold"/>
+</LinearLayout>

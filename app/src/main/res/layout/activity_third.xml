@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="几年前斯坦福工程师率先开发的电阻式随机存取存储器（RRAM），它是一种新型电脑存储器，它基于一种新的半导体材料，依赖于温度和电压来存储数据。虽然它被证明比当前技术更快，更节能，但是RRAM的工作原理仍然是一个谜。现在，一个斯坦福团队使用了全新工具来研究RRAM，发现其最佳工作温度范围远低于此前预期，为更高效的内存铺平了道路。
+RRAM及其制造的半导体允许芯片堆叠在彼此之上，使得存储器和逻辑组件以不能复制的方式靠近在一起。这些3D“高层”芯片可以解决大数据处理延迟，同时延长未来移动设备的电池寿命，提供更快，更高能效的解决方案。"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/a3"
+        android:id="@+id/imageView5" />
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:textColor = "@color/colorPrimary"
+        android:textStyle="bold"/>
+</LinearLayout>

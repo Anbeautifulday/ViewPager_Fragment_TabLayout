@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="挥挥手让手机静音，或用手指在手腕处刷一下发送文本，或扬手切换应用程序……当这种直观的手势用户界面进入我们的日常生活时，我们会很快忘记它的存在。想象一下，在房间的某个角落，或者在你身体的某个地方，一个微小的超声波传感器艰难地工作着，它要从周围懒惰的空气分子中、从我们周围未使用到的超声波频谱中，提取出有用的信息。
+如果物联网将实现数以百亿计的智能设备连接，或许到2020年，我们能以比语音和触摸更好的方式来与这个世界互动。而智能装备之所以先进，离不开它的基础感官设备——传感器的快速发展。"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/a4"
+        android:id="@+id/imageButton" />
+
+    <Button
+        android:id="@+id/bt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:textColor = "@color/colorPrimary"
+        android:textStyle="bold"/>
+</LinearLayout>
